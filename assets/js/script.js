@@ -157,8 +157,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-var toggleShow = function(){
-    var element = document.querySelector(".photo-caption");
-    element.classList.toggle("photo-caption-show");
-}
