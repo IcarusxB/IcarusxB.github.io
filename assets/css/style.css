@@ -1878,23 +1878,4 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
-
-
-
-
-
-.photo-caption-show {
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 10%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}}
+}
