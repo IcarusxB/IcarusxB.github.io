@@ -3,713 +3,277 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IcarusxB</title>
-
-  <!-- 
-    - favicon
-  -->
+  <meta name="description" content="Icarus — blockchain security researcher and smart-contract auditor.">
+  <meta property="og:title" content="Icarus | Security Researcher">
+  <meta property="og:description" content="Smart-contract audits, reproducible PoCs and security tooling across EVM, Solana and Move ecosystems.">
+  <meta property="og:type" content="website">
+  <title>Icarus | Security Researcher</title>
   <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
-          <img src="./assets/images/logo.png" alt="IcarusxB" width="80">
+          <img src="./assets/images/logo.png" alt="IcarusxB logo" width="80">
         </figure>
-
         <div class="info-content">
-          <h1 class="name" title="">Icarus</h1>
-
-          <p class="title">cybersecurity engineer</p>
+          <h1 class="name" title="Icarus">Icarus</h1>
           <p class="title">Security Researcher</p>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
+        <button class="info_more-btn" data-sidebar-btn aria-expanded="false">
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
-
         <div class="separator"></div>
-
         <ul class="contacts-list">
-
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:icarus11@outlook.com" class="contact-link">icarus11@outlook.com</a>
             </div>
-
           </li>
-          
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="paper-plane-outline"></ion-icon></div>
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="https://t.me/bluewol" class="contact-link">Bluewolf</a>
+              <p class="contact-title">Telegram</p>
+              <a href="https://t.me/bluewol" class="contact-link" target="_blank" rel="noopener">@bluewol</a>
             </div>
-
           </li>
-
           <li class="contact-item">
-
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="language-outline"></ion-icon></div>
             <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>France</address>
+              <p class="contact-title">Languages</p>
+              <p class="contact-link">French &amp; English</p>
             </div>
-
           </li>
-
         </ul>
 
         <div class="separator"></div>
-
         <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://twitter.com/Icarus_xB" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
+          <li class="social-item"><a href="https://github.com/IcarusxB" class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li class="social-item"><a href="https://x.com/Icarus_xB" class="social-link" target="_blank" rel="noopener" aria-label="X"><span class="x-mark" aria-hidden="true">𝕏</span></a></li>
         </ul>
-
       </div>
-
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
     <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
+      <nav class="navbar" aria-label="Primary navigation">
         <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
         </ul>
-
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
         <section class="about-text">
           <p>
-            I am a cybersecurity engineer from France.
-            I studied at ENSIBS from 2021 to 2024, and before that, I completed a DUT in Networks and Telecommunications (R&T) in Vélizy, with a 6-month period in Bulgaria.
-            I spend my time learning how things work, how to break them, and how to fix them.
+            I am Icarus, a cybersecurity engineer and security researcher focused on blockchain protocols. I review Solidity and Rust codebases, turn issues into reproducible Foundry, Anchor or Rust tests, and work with teams from discovery through remediation.
           </p>
-
           <p>
-            This is an overview of my professional background and achievements. I hope you find something that interests you.
-            Feel free to contact me if you have any questions.
+            My work spans DeFi, DAO, DLT and hardware-related systems across EVM, Solana and Move ecosystems. I also build security tools and automated research workflows in Rust and Python.
+          </p>
+          <p>
+            Before Web3 security, I spent three years in the public sector working on networks, user support, EDR deployment, security audits, ISO 27001 and a full cyber-crisis exercise. That operational background still shapes how I assess real systems: understand the trust boundaries, challenge assumptions, validate impact and communicate clearly.
           </p>
         </section>
-
-
-        <!--
-          - service
-        -->
 
         <section class="service">
-
           <h3 class="h3 service-title">What I do</h3>
-
           <ul class="service-list">
-
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/edr.png
-                " alt="EDR icon" width="40">
-              </div>
-
+              <div class="service-icon-box service-line-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">EDR Management</h4>
-
-                <p class="service-item-text">
-                  Comprehensive and advanced endpoint detection and response management, ensuring top-tier security and real-time threat mitigation.
-                </p>
+                <h4 class="h4 service-item-title">Protocol Security Review</h4>
+                <p class="service-item-text">Security reviews, economic-invariant analysis and attack-path research across EVM, Solana/SVM and Move protocols.</p>
               </div>
-
             </li>
-
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/web3.png" alt="Web3 icon" width="40">
-              </div>
-
+              <div class="service-icon-box service-line-icon"><ion-icon name="warning-outline"></ion-icon></div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web3 security review</h4>
-
-                <p class="service-item-text">
-                  Thorough and expert Web3 security review, safeguarding decentralized applications, on Ethereum, Solana and Aptos.
-                </p>
+                <h4 class="h4 service-item-title">Crisis Management Exercises</h4>
+                <p class="service-item-text">Realistic cyber-crisis scenarios, exercise design, facilitation, observation and post-exercise improvement plans.</p>
               </div>
-
             </li>
-
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/crisis.png" alt="Crisis icon" width="40">
-              </div>
-
+              <div class="service-icon-box service-line-icon"><ion-icon name="construct-outline"></ion-icon></div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Crisis Management Exercise</h4>
-
-                <p class="service-item-text">
-                  Realistic and immersive crisis management exercises, designed to enhance preparedness and response capabilities.
-                </p>
+                <h4 class="h4 service-item-title">Security Tooling</h4>
+                <p class="service-item-text">Rust, Python and AI-assisted workflows for scope control, on-chain investigation, coverage and evidence management.</p>
               </div>
-
             </li>
-
             <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/procedure.png" alt="Procedure icon" width="40">
-              </div>
-
+              <div class="service-icon-box service-line-icon"><ion-icon name="document-text-outline"></ion-icon></div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Procedure Writing and Implementation</h4>
-
-                <p class="service-item-text">
-                  Detailed and effective procedure writing and implementation, ensuring clarity, compliance, and seamless operational execution(ISO27001).
-                </p>
+                <h4 class="h4 service-item-title">Security Governance</h4>
+                <p class="service-item-text">Security policies, procedures and documentation supporting ISO 27001 programmes, risk management and operational compliance.</p>
               </div>
-
             </li>
-
           </ul>
-
         </section>
 
-
-        
-
-        <!--
-          - testimonials modal
-        -->
- <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-            </div>
-
-            <div class="modal-content">
-            </div>
-
-          </section>
-
-        </div>
-
       </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
 
       <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+        <section class="resume-intro">
+          <p>Security researcher with nearly five years of combined experience across institutional cybersecurity and Web3 security. Bilingual in French and English.</p>
+        </section>
 
         <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div><h3 class="h3">Experience</h3></div>
           <ol class="timeline-list">
-
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Ecole Nationale Supérieure d'Ingénieurs de Bretagne Sud (Cybersecurity)</h4>
-              
-              <span>2021 — 2024</span>
-
-              <p class="timeline-text">
-                Keylogger project <br>
-                Smart contract auditing project <br>
-                Crisis management exercise
-              </p>
-
+              <h4 class="h4 timeline-item-title">Security Researcher — OShield</h4>
+              <span>October 2024 — Present</span>
+              <p class="timeline-text">Audit DeFi, DAO and hardware-related systems across Solidity and Rust codebases. Analyze accounting, economic invariants, oracle behaviour, access control and state transitions; build Foundry and Anchor PoCs; develop Rust/Python audit tools; write client-facing reports and validate fixes. Published as BlueWol.</p>
             </li>
-
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Diplôme Universitaire de Technologie R&T</h4>
-
-              <span>2019 — 2021</span>
-
-              <p class="timeline-text">
-                Pentest initiation project <br>
-                6 months in Bulgaria (sports
-                application project integrating
-                augmented reality)
-              </p>
-
+              <h4 class="h4 timeline-item-title">Apprentice Network &amp; Cybersecurity Engineer — CCIN</h4>
+              <span>September 2021 — September 2024</span>
+              <p class="timeline-text">Delivered GLPI and hotline support, workstation and access-right management, network/security documentation and public-sector audits. Led an EDR market study, product testing, selection and deployment; contributed to ISO 27001 documentation, awareness campaigns and a five-month cyber-crisis exercise.</p>
             </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school Notre Dame</h4>
-
-              <span>2017 — 2019</span>
-
-              <p class="timeline-text">
-                 BAC S (ISN)
-              </p>
-
-            </li>
-
           </ol>
-
         </section>
 
         <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="school-outline"></ion-icon></div><h3 class="h3">Education</h3></div>
           <ol class="timeline-list">
-            
-
             <li class="timeline-item">
-             
-              <h4 class="h4 timeline-item-title">Security Researcher</h4>
-
-              <span>2024 — Present</span>
-
-              <p class="timeline-text">
-                Anchor Framework Security. <br>
-                Solana Program Vulnerability Assessment. <br>
-                Comprehensive Security Report Writing and PoC. <br>
-                Aptos move prover.<br>
-                Aptos Program Vulnerability assessment.<br>
-              </p>
-              
-              </li>
-              <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Cybersecurity Engineer Intern</h4>
-
+              <h4 class="h4 timeline-item-title">Cybersecurity Engineering — ENSIBS</h4>
               <span>2021 — 2024</span>
-
-              <p class="timeline-text">
-                IT Asset Management. <br>
-                Network Architecture Design. <br>
-                Procedure Writing and Implementation. <br>
-                ISO27001/HDS/Label Expert Cyber. <br>
-                Penetration Testing.<br>
-                EDR Management.<br>
-                VADE Management. <br>
-                Creation and Implementation of a Crisis Management Exercise (final year
-                project, 3 months). <br>
-                Basic Audits of EPL and Municipalities. <br>
-                Awareness Campaign. <br>
-              </p>
-            
-
-            </li>
-
-        </section>
-          <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Projects</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Audit Lounge </h4>
-                <span> January 2026 </span>
-                <p class="timeline-text">
-                  A new way for protocols and security researchers to connect, with transparent budget, and no middle man.
-                </p>
-                <a href="https://auditlounge.xyz/" target="_blank" style="color: white; text-decoration: none;"> auditlounge.xyz</a>            
-            </li>
-            
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Ackee School of Solana </h4>
-                <span>October 2024 - december 2024</span>
-                <p class="timeline-text">
-                  Graduated from the Ackee School of Solana S6, a 9-week online course taught in English that concluded in December.<br>
-                  These lessons served as a perfect introduction to Solana, with multiple exercises with deadlines to complete.<br>
-                  To earn this diploma, students needed to pass at least 5 of the exercises and complete the final project.<br>
-                  My final project was creating an e-commerce platform: https://madma.vercel.app/ (If you would like access to the admin page, please contact me).<br>
-                </p>
-                <img src="./assets/images/ackee.PNG" alt="Ackee" width="80">
-
+              <p class="timeline-text">Systems, networks, software development, security auditing, smart-contract security and cyber-crisis management.</p>
             </li>
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Designing a cyber crisis management exercise</h4>
-
-              <span>March 2024 - June 2024</span>
-
-              <p class="timeline-text">
-                Created a plausible scenario based on a risk analysis. <br>
-                Drafted a timeline for better tracking.<br>
-                Drafted various stimuli adapted to different roles.<br>
-                Drafted a a Situational document.<br>
-                Verification of BCA (Business Continuity Plan) and DRA (Disaster Recovery Plan)
-                documents.<br>
-                Implementation of a crisis management plan.<br>
-                Drafting a document with various points of improvement and their degree of
-                importance.<br>
-                Awareness and comprehensive Retex (Return on Experience) following the
-                exercise.<br>
+              <h4 class="h4 timeline-item-title">Ackee School of Solana — Season 6</h4>
+              <span>October — December 2024</span>
+              <p class="timeline-text">Nine-week English-language Solana development programme with practical exercises and a decentralized e-commerce final project.</p>
             </li>
-            
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Creating Web3 CTF Challenges</h4>
-
-              <span>2023</span>
-
-              <p class="timeline-text">
-                Created a challenge for the GCC CTF. Made as beginner level and serves as an introduction to blockchain challenges.
+              <h4 class="h4 timeline-item-title">DUT Networks &amp; Telecommunications — IUT de Vélizy</h4>
+              <span>2019 — 2021</span>
+              <p class="timeline-text">Systems and network administration, protocols, telecommunications, development and introductory pentesting, including a six-month international experience in Bulgaria.</p>
             </li>
-            </section>
-
- <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Soft Skills</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-<li class="timeline-item">
-    <h4 class="h4 timeline-item-title">Collaborative Team Player and Effective Project Leader</h4>
-    <p class="timeline-text">Skilled at working effectively in team environments, contributing positively to group projects and initiatives.</p>
-  </li>
-  <li class="timeline-item">
-    <h4 class="h4 timeline-item-title">Self-Directed and Independent Learner</h4>
-    <p class="timeline-text">Able to work autonomously, take initiative, and drive tasks to completion without close supervision. Proactively seeks out opportunities to expand knowledge and skills.</p>
-  </li>
-  <li class="timeline-item">
-    <h4 class="h4 timeline-item-title">Intellectually Curious and Adaptable</h4>
-    <p class="timeline-text">Demonstrates a genuine interest in learning new things. Receptive to feedback and open to changing approach or perspective when presented with new information or ideas.</p>
-  </li>
-  <li class="timeline-item">
-    <h4 class="h4 timeline-item-title">Detail-Oriented and Organized</h4>
-    <p class="timeline-text">Pays close attention to accuracy and quality. Maintains well-structured systems and processes to ensure efficient workflow and timely task completion.</p>
-  </li>
-
-          
-            
-</section>
-
-
-            
+          </ol>
         </section>
 
+        <section class="stack-section">
+          <h3 class="h3 skills-title">Technical stack</h3>
+          <div class="stack-grid">
+            <div class="stack-card"><h4 class="h4">Languages</h4><p>Rust, Python, Solidity, TypeScript, JavaScript, Move and Bash</p></div>
+            <div class="stack-card"><h4 class="h4">Audit &amp; Testing</h4><p>Foundry, Forge, Anvil, Cast, Anchor, Slither, Echidna, Certora Prover, Aptos Prover, LiteSVM, Surfpool</p></div>
+            <div class="stack-card"><h4 class="h4">Security Research &amp; Awareness</h4><p>Protocol accounting, fuzzing, formal verification, threat modelling, attack paths, static analysis, evidence-backed reporting and security awareness campaigns</p></div>
+            <div class="stack-card"><h4 class="h4">Systems &amp; Networks</h4><p>Linux/Unix, Windows, Git, TCP/IP, VLAN, VPN, firewalls, TLS, Nmap, Wireshark, GLPI and EDR operations</p></div>
+          </div>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="rocket-outline"></ion-icon></div><h3 class="h3">Selected projects</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Audit Lounge</h4><span>2026</span><p class="timeline-text">Designed and built a platform that helps protocols structure audit requests and compare qualified security researchers.</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">BEYOND</h4><p class="timeline-text">Co-founded a collaborative blockchain-security research collective with a public portfolio of 40+ High/Medium findings. <a class="inline-link" href="https://github.com/beyondaudit/portfolio" target="_blank" rel="noopener">View the public portfolio</a>.</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">SPADE, Past-Life &amp; InScope</h4><p class="timeline-text">Built open-source Rust tools for Solana account analysis, historical on-chain investigation and audit-scope management.</p></li>
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Security training &amp; challenges</h4><p class="timeline-text">Designed a Rust security workshop for RektOff Bootcamp and created Solidity and Solana security challenges for learning and candidate evaluation.</p></li>
+          </ol>
+        </section>
       </article>
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
 
       <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+        <header><h2 class="h2 article-title">Portfolio</h2></header>
+        <p class="portfolio-lead">A selection of published research, security tools and practical projects. All descriptions now live on this site; external links are used only for source code, reports or live products.</p>
 
         <section class="projects">
-          
- <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn></button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn></button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn></button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn></button>
-            </li>
-
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Security</button></li>
+            <li class="filter-item"><button data-filter-btn>Tools</button></li>
+            <li class="filter-item"><button data-filter-btn>Products</button></li>
+            <li class="filter-item"><button data-filter-btn>Training</button></li>
           </ul>
-
           <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value></div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
+            <button class="filter-select" data-select><span data-selecct-value>All</span><span class="select-icon"><ion-icon name="chevron-down"></ion-icon></span></button>
             <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item></button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item></button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item></button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item></button>
-              </li>
-
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Security</button></li>
+              <li class="select-item"><button data-select-item>Tools</button></li>
+              <li class="select-item"><button data-select-item>Products</button></li>
+              <li class="select-item"><button data-select-item>Training</button></li>
             </ul>
-
           </div>
 
-
           <ul class="project-list">
-
-              <a href="https://icarusxb.notion.site/CTF-Challenges-c35073c803944234a44747b8ace7ed75">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/ctfchallenges.png" alt="challenges" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">CTF Challenges</h3>
-
-                <p class="project-category">Web3</p>
-
+            <li class="project-item active" data-filter-item data-category="security">
+              <a href="./web3/">
+                <div class="project-card-body"><div class="project-symbol"><ion-icon name="shield-checkmark-outline"></ion-icon></div><h3 class="project-title">Web3 Security Portfolio</h3><p class="project-category">5 reports, selected findings, profiles and methodology</p><p class="project-description">Published audit work, Critical and High findings, research profiles and open-source security tooling.</p></div>
               </a>
-          
-            <!--</li> -->
-
-          
-              <a href="https://github.com/IcarusxB/keylogger">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/keylogger.png" alt="keylogger" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">keylogger</h3>
-
-                <p class="project-category">Pentesting</p>
+            </li>
+            <li class="project-item active" data-filter-item data-category="products">
+              <a href="https://auditlounge.xyz/" target="_blank" rel="noopener">
+                <div class="project-card-body"><div class="project-symbol"><ion-icon name="people-circle-outline"></ion-icon></div><h3 class="project-title">Audit Lounge</h3><p class="project-category">Audit sourcing and researcher selection platform</p><p class="project-description">A platform for protocols to structure audit requests and compare qualified security researchers directly.</p></div>
               </a>
-            <!--</li> -->
-
-
-              <a href="https://evening-enquiry-5cc.notion.site/Knowledge-and-Skills-71d62754fc3f49cebaa20bbcc8615229">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/toolsandsoftwares.png" alt="skills" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Knowledge and Skills</h3>
-
-                <p class="project-category"></p>
+            </li>
+            <li class="project-item active" data-filter-item data-category="security">
+              <a href="https://github.com/beyondaudit/portfolio" target="_blank" rel="noopener">
+                <div class="project-card-body">
+                  <div class="project-symbol"><ion-icon name="people-outline"></ion-icon></div>
+                  <h3 class="project-title">BEYOND</h3><p class="project-category">Co-founded security research collective</p>
+                  <p class="project-description">Collaborative research, shared methodologies and evidence standards supporting a collective portfolio of 40+ High/Medium findings.</p>
+                </div>
               </a>
-            <!--</li> -->
-             
-            <!--</li> -->
-
-
-              <a href="https://evening-enquiry-5cc.notion.site/AUDITS-1fe2f32e50a68094a930f3c9ed67b56f?pvs=73">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/audit.png" alt="skills" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Audits</h3>
-
-                <p class="project-category"></p>
+            </li>
+            <li class="project-item active" data-filter-item data-category="tools">
+              <a href="https://github.com/IcarusxB/SPADE" target="_blank" rel="noopener">
+                <div class="project-card-body"><div class="project-symbol"><ion-icon name="git-network-outline"></ion-icon></div><h3 class="project-title">SPADE</h3><p class="project-category">Rust · Solana account analysis</p><p class="project-description">Analyzes program accounts to reveal their structure, recurring patterns and on-chain relationships.</p></div>
               </a>
-            <!--</li> -->
-
-              <a href="https://evening-enquiry-5cc.notion.site/TOOLS-2162f32e50a680759d2eda85f196cf2e?pvs=73">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/tools.png" alt="skills" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Tools</h3>
-
-                <p class="project-category"></p>
+            </li>
+            <li class="project-item active" data-filter-item data-category="tools">
+              <a href="https://github.com/IcarusxB/Past-Life" target="_blank" rel="noopener">
+                <div class="project-card-body"><div class="project-symbol"><ion-icon name="time-outline"></ion-icon></div><h3 class="project-title">Past-Life</h3><p class="project-category">Rust · Historical Solana investigation</p><p class="project-description">CLI for inspecting accounts, transactions, daily balances and maximum recorded balances.</p></div>
               </a>
-            <!--</li> -->
-
-            
-            
+            </li>
+            <li class="project-item active" data-filter-item data-category="tools">
+              <a href="https://github.com/IcarusxB/InScope" target="_blank" rel="noopener">
+                <div class="project-card-body"><div class="project-symbol"><ion-icon name="scan-outline"></ion-icon></div><h3 class="project-title">InScope</h3><p class="project-category">Open-source audit scope tooling</p><p class="project-description">CLI for organizing audit scope and making coverage tracking in large codebases more systematic.</p></div>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="training">
+              <div class="project-card-body"><div class="project-symbol"><ion-icon name="school-outline"></ion-icon></div><h3 class="project-title">Security Workshops &amp; Challenges</h3><p class="project-category">Rust · Solidity · Solana</p><p class="project-description">A Rust security workshop for RektOff Bootcamp, a beginner Solidity challenge and an intermediate Solana challenge.</p></div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="training">
+              <div class="project-card-body"><div class="project-symbol"><ion-icon name="flag-outline"></ion-icon></div><h3 class="project-title">Synthatsu-Katana-Thief</h3><p class="project-category">GCC CTF · Beginner blockchain challenge</p><p class="project-description">Created as an accessible introduction to smart-contract and blockchain security challenges.</p></div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="products">
+              <a href="https://madma.vercel.app/" target="_blank" rel="noopener">
+                <div class="project-card-body"><div class="project-symbol"><ion-icon name="cart-outline"></ion-icon></div><h3 class="project-title">Madma Store</h3><p class="project-category">Ackee School of Solana final project</p><p class="project-description">A decentralized e-commerce application with wallet connection, role-based access and on-chain purchasing logic.</p></div>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="security">
+              <a href="https://github.com/IcarusxB/keylogger" target="_blank" rel="noopener">
+                <figure class="project-img"><div class="project-item-icon-box"><ion-icon name="logo-github"></ion-icon></div><img src="./assets/images/keylogger.png" alt="Keylogger project" loading="lazy"></figure>
+                <h3 class="project-title">Keylogger Research Project</h3><p class="project-category">C++ · Windows security research</p>
+              </a>
+            </li>
           </ul>
-
         </section>
-
       </article>
-
-
     </div>
-
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
